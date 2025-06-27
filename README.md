@@ -1,6 +1,6 @@
-# [nglobe](https://nglobe.vercel.app/)
+# [Next.js 14 Multilingual Template](https://next-multilang.dynaxfy.com/)
 
-![nglobe](https://cdn.jsdelivr.net/gh/xxydrr/my_pic/img/image-20230819193814746.png)
+![Next.js 14 Multilingual Template](https://cdn.jsdelivr.net/gh/xxydrr/my_pic/img/image-20230819193814746.png)
 
 <p align='center'>
 <b>English</b> | <a href="https://github.com/reeswell/nglobe/blob/main/README.zh-CN.md">简体中文</a>
