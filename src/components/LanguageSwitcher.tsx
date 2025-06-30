@@ -1,9 +1,9 @@
 'use client';
 
 import { useLocale } from 'next-intl';
-import { useRouter, usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import { localeConfig } from '@/lib/i18n/config';
-import { useState, useRef, useEffect } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 export function LanguageSwitcher() {
   const locale = useLocale();
@@ -36,12 +36,12 @@ export function LanguageSwitcher() {
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center space-x-2 bg-background text-foreground border border-border rounded-lg px-3 py-2 hover:bg-accent hover:text-accent-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition-colors duration-200"
+        className="flex items-center space-x-2 rounded-lg border border-border bg-background px-3 py-2 text-foreground transition-colors duration-200 hover:bg-accent hover:text-accent-foreground focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary"
       >
         <span className="text-sm">{currentConfig?.flag}</span>
         <span className="text-sm font-medium">{currentConfig?.name}</span>
         <svg
-          className={`w-4 h-4 text-muted-foreground transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
+          className={`h-4 w-4 text-muted-foreground transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -51,12 +51,12 @@ export function LanguageSwitcher() {
       </button>
 
       {isOpen && (
-        <div className="absolute top-full left-0 mt-1 w-full min-w-[140px] bg-card border border-border rounded-lg shadow-lg z-50">
+        <div className="absolute left-0 top-full z-50 mt-1 w-full min-w-[140px] rounded-lg border border-border bg-card shadow-lg">
           {Object.entries(localeConfig).map(([key, config]) => (
             <button
               key={key}
               onClick={() => handleLocaleChange(key)}
-              className={`w-full flex items-center space-x-2 px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground transition-colors duration-200 first:rounded-t-lg last:rounded-b-lg ${key === locale ? 'bg-accent text-accent-foreground' : 'text-card-foreground'
+              className={`flex w-full items-center space-x-2 px-3 py-2 text-sm transition-colors duration-200 first:rounded-t-lg last:rounded-b-lg hover:bg-accent hover:text-accent-foreground ${key === locale ? 'bg-accent text-accent-foreground' : 'text-card-foreground'
                 }`}
             >
               <span>{config.flag}</span>

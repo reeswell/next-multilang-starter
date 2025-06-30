@@ -8,18 +8,18 @@ export function ChineseFooter() {
   const t = useTranslations('Layout.footer');
 
   return (
-    <footer className="bg-muted border-t border-border">
+    <footer className="border-t border-border bg-muted">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div className="col-span-1 md:col-span-2">
             <div className="mb-6">
-              <h3 className="text-2xl font-semibold mb-2 text-foreground">您的品牌</h3>
-              <p className="text-muted-foreground text-sm">
+              <h3 className="mb-2 text-2xl font-semibold text-foreground">您的品牌</h3>
+              <p className="text-sm text-muted-foreground">
                 专业、创新、可信赖的解决方案提供商
               </p>
             </div>
 
-            <p className="text-muted-foreground leading-relaxed mb-6 max-w-md">
+            <p className="mb-6 max-w-md leading-relaxed text-muted-foreground">
               {t('description')}
             </p>
 
@@ -41,7 +41,7 @@ export function ChineseFooter() {
                 <a
                   key={social.name}
                   href="#"
-                  className={`px-3 py-2 text-sm text-muted-foreground border border-border rounded-md transition-colors duration-200 ${social.color}`}
+                  className={`rounded-md border border-border px-3 py-2 text-sm text-muted-foreground transition-colors duration-200 ${social.color}`}
                 >
                   {social.name}
                 </a>
@@ -50,14 +50,14 @@ export function ChineseFooter() {
           </div>
 
           <div>
-            <h4 className="text-lg font-medium mb-4 text-foreground">
+            <h4 className="mb-4 text-lg font-medium text-foreground">
               {t('company.title')}
             </h4>
             <ul className="space-y-3">
               <li>
                 <Link
                   href="#"
-                  className="text-muted-foreground hover:text-foreground transition-colors duration-200 text-sm"
+                  className="text-sm text-muted-foreground transition-colors duration-200 hover:text-foreground"
                 >
                   {t('company.about')}
                 </Link>
@@ -65,7 +65,7 @@ export function ChineseFooter() {
               <li>
                 <Link
                   href="#"
-                  className="text-muted-foreground hover:text-foreground transition-colors duration-200 text-sm"
+                  className="text-sm text-muted-foreground transition-colors duration-200 hover:text-foreground"
                 >
                   {t('company.careers')}
                 </Link>
@@ -73,7 +73,7 @@ export function ChineseFooter() {
               <li>
                 <Link
                   href="#"
-                  className="text-muted-foreground hover:text-foreground transition-colors duration-200 text-sm"
+                  className="text-sm text-muted-foreground transition-colors duration-200 hover:text-foreground"
                 >
                   {t('company.press')}
                 </Link>
@@ -81,7 +81,7 @@ export function ChineseFooter() {
               <li>
                 <Link
                   href="#"
-                  className="text-muted-foreground hover:text-foreground transition-colors duration-200 text-sm"
+                  className="text-sm text-muted-foreground transition-colors duration-200 hover:text-foreground"
                 >
                   联系我们
                 </Link>
@@ -90,14 +90,14 @@ export function ChineseFooter() {
           </div>
 
           <div>
-            <h4 className="text-lg font-medium mb-4 text-foreground">
+            <h4 className="mb-4 text-lg font-medium text-foreground">
               {t('support.title')}
             </h4>
             <ul className="space-y-3">
               <li>
                 <Link
                   href="#"
-                  className="text-muted-foreground hover:text-foreground transition-colors duration-200 text-sm"
+                  className="text-sm text-muted-foreground transition-colors duration-200 hover:text-foreground"
                 >
                   {t('support.help')}
                 </Link>
@@ -105,7 +105,7 @@ export function ChineseFooter() {
               <li>
                 <Link
                   href="#"
-                  className="text-muted-foreground hover:text-foreground transition-colors duration-200 text-sm"
+                  className="text-sm text-muted-foreground transition-colors duration-200 hover:text-foreground"
                 >
                   {t('support.docs')}
                 </Link>
@@ -113,7 +113,7 @@ export function ChineseFooter() {
               <li>
                 <Link
                   href="#"
-                  className="text-muted-foreground hover:text-foreground transition-colors duration-200 text-sm"
+                  className="text-sm text-muted-foreground transition-colors duration-200 hover:text-foreground"
                 >
                   {t('support.api')}
                 </Link>
@@ -121,7 +121,7 @@ export function ChineseFooter() {
               <li>
                 <Link
                   href="#"
-                  className="text-muted-foreground hover:text-foreground transition-colors duration-200 text-sm"
+                  className="text-sm text-muted-foreground transition-colors duration-200 hover:text-foreground"
                 >
                   服务状态
                 </Link>
@@ -130,7 +130,7 @@ export function ChineseFooter() {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+        <div className="flex flex-col items-center justify-between space-y-4 md:flex-row md:space-y-0">
           <Copyright copyright={t('copyright')} />
         </div>
       </div>

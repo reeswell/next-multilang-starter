@@ -42,7 +42,7 @@ export default async function RootLayout({
   children,
   params: { locale },
 }: Props) {
-  if (!locales.includes(locale as any)) {
+  if (!locales.includes(locale as (typeof locales)[number])) {
     notFound();
   }
   // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment

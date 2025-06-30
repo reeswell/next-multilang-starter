@@ -24,7 +24,7 @@ export function LocalizedLayout({ children }: LocalizedLayoutProps) {
   const Footer = footers[locale as keyof typeof footers] || EnglishFooter;
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="flex min-h-screen flex-col">
       <Header />
       <main className="flex-1">
         {children}

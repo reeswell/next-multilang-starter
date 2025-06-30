@@ -20,6 +20,7 @@ const config = {
     'tailwindcss/no-custom-classname': 'off',
     '@next/next/no-html-link-for-pages': 'off',
     'tailwindcss/classnames-order': 'error',
+    "@typescript-eslint/no-unsafe-member-access": 'off',
   },
   settings: {
     next: {
