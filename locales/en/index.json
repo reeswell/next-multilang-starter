@@ -2,23 +2,68 @@
   "Meta": {
     "title": "next-app-starter"
   },
-  "ProductFeatures": {
-    "h2": "Technical Specifications",
-    "p": "The walnut wood card tray is precision milled to perfectly fit a stack of Focus cards. The powder coatedsteel divider separates active cards from new ones, or can be used to archive important task lists.",
-    "description": "Designed by Good Goods, Inc.",
-    "material": "Solid walnut base with rare earth magnets and powder coated steel card cover",
-    "dimensions": "6.25\" x 3.55\" x 1.15\"",
-    "finish": "Hand sanded and finished with natural oil",
-    "includes": "Wood card tray and 3 refill packs",
-    "considerations": "Made from natural materials. Grain and color vary with each item.",
-    "technicalSpecifications": "Technical Specifications",
-    "Origin": "Origin",
-    "Material": "Material",
-    "Dimensions": "Dimensions",
-    "Finish": "Finish",
-    "Includes": "Includes",
-    "Considerations": "Considerations"
+  "Layout": {
+    "header": {
+      "title": "Modern Enterprise",
+      "subtitle": "Innovation & Excellence",
+      "nav": {
+        "home": "Home",
+        "about": "About",
+        "products": "Products",
+        "contact": "Contact"
+      },
+      "cta": "Get Started"
+    },
+    "footer": {
+      "company": {
+        "title": "Company",
+        "about": "About Us",
+        "careers": "Careers",
+        "press": "Press"
+      },
+      "products": {
+        "title": "Products",
+        "features": "Features",
+        "pricing": "Pricing",
+        "enterprise": "Enterprise"
+      },
+      "support": {
+        "title": "Support",
+        "help": "Help Center",
+        "docs": "Documentation",
+        "api": "API Reference"
+      },
+      "copyright": "© 2024 Modern Enterprise. All rights reserved.",
+      "description": "Building the future with innovative technology solutions."
+    }
   },
+  "Pages": {
+    "home": {
+      "hero": {
+        "title": "Transform Your Business",
+        "subtitle": "Cutting-edge solutions for modern enterprises",
+        "cta": "Start Your Journey"
+      },
+      "features": {
+        "title": "Why Choose Us",
+        "items": [
+          {
+            "title": "Innovation",
+            "description": "Leading-edge technology solutions"
+          },
+          {
+            "title": "Reliability",
+            "description": "99.9% uptime guarantee"
+          },
+          {
+            "title": "Support",
+            "description": "24/7 expert assistance"
+          }
+        ]
+      }
+    }
+  },
+
   "Menu": {
     "home": "Home",
     "about": "About",

@@ -2,23 +2,68 @@
   "Meta": {
     "title": "next-app-starter"
   },
-  "ProductFeatures": {
-    "h2": "技术规格",
-    "p": "核心卡片的组合可以精确地装入胡桃木卡片托盘中。粉末涂层钢制隔板将活动卡片与新卡片分开，或可用于归档重要的任务清单。",
-    "description": "由 Good Goods 公司设计。",
-    "material": "实木胡桃底座，稀土永磁铁和喷粉涂层钢卡片盖",
-    "dimensions": "6.25 英寸 x 3.55 英寸 x 1.15 英寸",
-    "finish": "手工打磨并涂上天然油",
-    "includes": "木质卡盘和 3 个补充包装",
-    "considerations": "由天然材料制成。每件物品的纹理和颜色都有所不同。",
-    "technicalSpecifications": "技术规格",
-    "Origin": "产地",
-    "Material": "材料",
-    "Dimensions": "尺寸",
-    "Finish": "表面处理",
-    "Includes": "包括",
-    "Considerations": "注意事项"
+  "Layout": {
+    "header": {
+      "title": "中华企业",
+      "subtitle": "传承·创新·卓越",
+      "nav": {
+        "home": "首页",
+        "about": "关于我们",
+        "products": "产品服务",
+        "contact": "联系我们"
+      },
+      "cta": "立即体验"
+    },
+    "footer": {
+      "company": {
+        "title": "公司信息",
+        "about": "关于我们",
+        "careers": "人才招聘",
+        "press": "新闻中心"
+      },
+      "products": {
+        "title": "产品服务",
+        "features": "功能特色",
+        "pricing": "价格方案",
+        "enterprise": "企业版"
+      },
+      "support": {
+        "title": "客户支持",
+        "help": "帮助中心",
+        "docs": "使用文档",
+        "api": "接口文档"
+      },
+      "copyright": "© 2024 中华企业 版权所有",
+      "description": "传承中华文化，创新科技未来"
+    }
   },
+  "Pages": {
+    "home": {
+      "hero": {
+        "title": "传承创新，共创未来",
+        "subtitle": "融合传统智慧与现代科技的企业解决方案",
+        "cta": "开启征程"
+      },
+      "features": {
+        "title": "选择我们的理由",
+        "items": [
+          {
+            "title": "传承创新",
+            "description": "融合传统文化与现代技术"
+          },
+          {
+            "title": "稳如磐石",
+            "description": "99.9% 服务可用性保障"
+          },
+          {
+            "title": "贴心服务",
+            "description": "全天候专业技术支持"
+          }
+        ]
+      }
+    }
+  },
+
   "Menu": {
     "h1": "Menu",
     "home": "首页",

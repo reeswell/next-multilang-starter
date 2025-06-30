@@ -1,5 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 import Providers from '@/components/Providers'
+import { LocalizedLayout } from '@/components/layouts/LocalizedLayout'
+import { locales } from '@/lib/i18n/config';
 import '@/style/global.css'
 import type { AbstractIntlMessages } from 'next-intl'
 import { NextIntlClientProvider, createTranslator } from 'next-intl'
@@ -40,13 +42,20 @@ export default async function RootLayout({
   children,
   params: { locale },
 }: Props) {
+  if (!locales.includes(locale as any)) {
+    notFound();
+  }
   // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
   const messages = await getMessages(locale)
   return (
     <html suppressHydrationWarning={true} lang={locale}>
       <body className={inter.className}>
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <Providers>{children}</Providers>
+          <Providers>
+            <LocalizedLayout>
+              {children}
+            </LocalizedLayout>
+          </Providers>
           <Toaster />
         </NextIntlClientProvider>
       </body>
