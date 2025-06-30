@@ -1,0 +1,94 @@
+{
+  "Meta": {
+    "title": "next-app-starter"
+  },
+  "Layout": {
+    "header": {
+      "title": "日本企業",
+      "subtitle": "シンプル・エレガント・品質",
+      "nav": {
+        "home": "ホーム",
+        "about": "会社概要",
+        "server": "サーバー",
+        "protected": "保護された",
+        "api": "API",
+        "admin": "管理者",
+        "me": "私"
+      },
+      "cta": "始める"
+    },
+    "footer": {
+      "company": {
+        "title": "会社情報",
+        "about": "会社概要",
+        "careers": "採用情報",
+        "press": "プレスリリース"
+      },
+      "products": {
+        "title": "製品・サービス",
+        "features": "機能",
+        "pricing": "料金",
+        "enterprise": "エンタープライズ"
+      },
+      "support": {
+        "title": "サポート",
+        "help": "ヘルプセンター",
+        "docs": "ドキュメント",
+        "api": "API リファレンス"
+      },
+      "copyright": "© 2025 Reeswell",
+      "description": "シンプルで美しいソリューションを提供します"
+    }
+  },
+  "Pages": {
+    "home": {
+      "hero": {
+        "title": "シンプルで美しい未来",
+        "subtitle": "日本の美学に基づいた企業ソリューション",
+        "cta": "始めましょう"
+      },
+      "features": {
+        "title": "選ばれる理由",
+        "items": [
+          {
+            "title": "シンプル",
+            "description": "美しく直感的なデザイン"
+          },
+          {
+            "title": "信頼性",
+            "description": "99.9% の稼働率保証"
+          },
+          {
+            "title": "サポート",
+            "description": "24時間365日の専門サポート"
+          }
+        ]
+      }
+    },
+    "about": {
+      "welcome": "私たちの多言語ウェブサイトへようこそ",
+      "description": "これは、Next.js 14を使用して構築された多言語ウェブサイトの例です。このウェブサイトには、次のような機能があります。",
+      "features": {
+        "multiLanguageSupport": "多言語サポート: このウェブサイトは複数の言語バージョンを提供しており、ユーザーは言語間を切り替えることができます。",
+        "thirdPartyLogin": "サードパーティログイン: ユーザーはGoogleやGitHubを使用して迅速にログインできます。",
+        "customLogin": "カスタムログイン: このウェブサイトは、ユーザーが独自のアカウントでログインできるカスタムログイン方法も提供しています。",
+        "themeSwitching": "テーマ切り替え: このウェブサイトはダークテーマとライトテーマの両方をサポートしており、ユーザーは好みに応じて切り替えることができます。",
+        "responsiveDesign": "レスポンシブデザイン: このウェブサイトはレスポンシブであり、さまざまな画面サイズやデバイスに適応します。"
+      },
+      "powerfulFeatures": "Next.js 14の最新機能を活用して、パフォーマンスとユーザーエクスペリエンスを向上させています。"
+    },
+    "auth": {
+      "home": "ホーム",
+      "signInCardDescription": "お好みのサインイン方法を選択してください",
+      "signUpCardDescription": "お好みのサインアップ方法を選択してください",
+      "divisionText": "または続行する",
+      "email": "メールアドレス",
+      "password": "パスワード",
+      "signUp": "サインアップ",
+      "signIn": "サインイン",
+      "signOut": "サインアウト",
+      "alreadyHaveAnAccount": "すでにアカウントをお持ちですか？",
+      "signUpText": "アカウントをお持ちでないですか？"
+    }
+  }
+}

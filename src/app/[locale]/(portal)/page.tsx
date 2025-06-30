@@ -1,12 +1,5 @@
-import ProductFeatures from '@/components/ProductFeatures'
-
-export const dynamicParams = false
-export const fetchCache = 'force-no-store'
+import { HomePage } from '@/components/pages/HomePage';
 
 export default function Home() {
-  return (
-    <div>
-      <ProductFeatures></ProductFeatures>
-    </div>
-  )
+  return <HomePage />;
 }

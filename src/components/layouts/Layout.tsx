@@ -1,5 +1,5 @@
-import Footer from '@/components/footer/Footer'
-import Header from '@/components/header/Header'
+import Footer from '@/components/layouts/footers/Copyright'
+import Header from '@/components/layouts/headers/Header'
 import type { ReactNode } from 'react'
 
 export default function Layout({ children }: { children: ReactNode }) {

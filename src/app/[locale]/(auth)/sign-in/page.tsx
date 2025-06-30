@@ -9,7 +9,7 @@ import { FaChevronLeft } from 'react-icons/fa'
 
 export default function SignInPage() {
   const locale = useLocale()
-  const t = useTranslations('Auth')
+  const t = useTranslations('Pages.auth')
 
   return (
     <div className="mx-auto flex h-full max-w-2xl flex-col items-center justify-center gap-20">
