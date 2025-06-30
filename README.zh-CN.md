@@ -1,6 +1,5 @@
-# [nglobe](https://nglobe.vercel.app/)
+# [nglobe](https://next-multilang.dynaxfy.com/)
 
-![nglobe](https://cdn.jsdelivr.net/gh/xxydrr/my_pic/img/image-20230819193814746.png)
 
 <p align='center'>
 <a href="https://github.com/reeswell/nglobe/blob/main/README.md">English</a> | <b>简体中文</b>
