@@ -1,4 +1,4 @@
-import Footer from '@/components/layouts/footers/Footer'
+import Footer from '@/components/layouts/footers/Copyright'
 import Header from '@/components/layouts/headers/Header'
 import type { ReactNode } from 'react'
 

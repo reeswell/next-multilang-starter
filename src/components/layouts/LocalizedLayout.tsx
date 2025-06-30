@@ -1,8 +1,5 @@
 
 import { useLocale } from 'next-intl';
-import { EnglishHeader } from './headers/EnglishHeader';
-import { ChineseHeader } from './headers/ChineseHeader';
-import { JapaneseHeader } from './headers/JapaneseHeader';
 import { EnglishFooter } from './footers/EnglishFooter';
 import { ChineseFooter } from './footers/ChineseFooter';
 import { JapaneseFooter } from './footers/JapaneseFooter';
@@ -15,11 +12,7 @@ interface LocalizedLayoutProps {
 export function LocalizedLayout({ children }: LocalizedLayoutProps) {
   const locale = useLocale();
 
-  const headers = {
-    en: EnglishHeader,
-    zh: ChineseHeader,
-    ja: JapaneseHeader,
-  };
+
   const footers = {
     en: EnglishFooter,
     zh: ChineseFooter,

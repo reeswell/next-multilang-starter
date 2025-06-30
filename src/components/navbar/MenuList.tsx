@@ -18,7 +18,7 @@ interface MenuListProps {
 }
 
 const MenuList: FC<MenuListProps> = ({ className = '' }) => {
-  const t = useTranslations('Menu')
+  const t = useTranslations('Layout.header.nav')
   const router = useRouter()
   const mobileMenuOverlay = useMobileMenuOverlay()
   const locale = useLocale()

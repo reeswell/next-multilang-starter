@@ -21,7 +21,7 @@ interface SignInProps {
 }
 
 const SignIn: FC<SignInProps> = ({ onToggle }) => {
-  const t = useTranslations('Auth')
+  const t = useTranslations('Pages.auth')
   return (
     <Card>
       <CardHeader className="space-y-1">

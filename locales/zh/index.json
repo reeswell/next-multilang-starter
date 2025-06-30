@@ -7,10 +7,14 @@
       "title": "中华企业",
       "subtitle": "传承·创新·卓越",
       "nav": {
+        "h1": "Menu",
         "home": "首页",
-        "about": "关于我们",
-        "products": "产品服务",
-        "contact": "联系我们"
+        "about": "关于",
+        "server": "服务器",
+        "protected": "受保护",
+        "api": "API",
+        "admin": "管理员",
+        "me": "我"
       },
       "cta": "立即体验"
     },
@@ -33,7 +37,7 @@
         "docs": "使用文档",
         "api": "接口文档"
       },
-      "copyright": "© 2024 中华企业 版权所有",
+      "copyright": "© 2025 Reeswell",
       "description": "传承中华文化，创新科技未来"
     }
   },
@@ -61,50 +65,31 @@
           }
         ]
       }
-    }
-  },
-
-  "Menu": {
-    "h1": "Menu",
-    "home": "首页",
-    "about": "关于",
-    "server": "服务器",
-    "protected": "受保护",
-    "api": "API",
-    "admin": "管理员",
-    "me": "我"
-  },
-  "Locales": {
-    "en": "英文",
-    "de": "德文",
-    "zh": "中文"
-  },
-  "About": {
-    "welcome": "欢迎访问我们的多语言网站",
-    "description": "这是一个使用 Next.js 13 构建的多语言网站示例。该网站具有以下功能：",
-    "features": {
-      "multiLanguageSupport": "多语言支持：该网站提供多种语言版本，用户可以在不同语言之间进行切换。",
-      "thirdPartyLogin": "第三方登录：用户可以使用 Google 和 GitHub 快速登录。",
-      "customLogin": "自定义登录：该网站还提供自定义登录方法，允许用户使用自己的帐户登录。",
-      "themeSwitching": "主题切换：该网站支持暗黑和明亮两种主题，用户可以根据自己的喜好进行切换。",
-      "responsiveDesign": "响应式设计：该网站支持响应式，能够自适应不同的屏幕尺寸和设备。"
     },
-    "powerfulFeatures": "借助 Next.js 13 强大的功能和丰富的生态系统，我们可以轻松构建现代化的多语言网站。"
-  },
-  "Auth": {
-    "home": "首页",
-    "signInCardDescription": "选择您喜欢的登录方式",
-    "signUpCardDescription": "选择您喜欢的注册方式",
-    "divisionText": "或者继续使用",
-    "email": "电子邮件",
-    "password": "密码",
-    "signUp": "注册",
-    "signIn": "登录",
-    "signOut": "退出",
-    "alreadyHaveAnAccount": "已经有账号?",
-    "signUpText": "没有账号?"
-  },
-  "Footer": {
-    "authorDescription": "开发者"
+    "about": {
+      "welcome": "欢迎访问我们的多语言网站",
+      "description": "这是一个使用 Next.js 14 构建的多语言网站示例。该网站具有以下功能：",
+      "features": {
+        "multiLanguageSupport": "多语言支持：该网站提供多种语言版本，用户可以在不同语言之间进行切换。",
+        "thirdPartyLogin": "第三方登录：用户可以使用 Google 和 GitHub 快速登录。",
+        "customLogin": "自定义登录：该网站还提供自定义登录方法，允许用户使用自己的帐户登录。",
+        "themeSwitching": "主题切换：该网站支持暗黑和明亮两种主题，用户可以根据自己的喜好进行切换。",
+        "responsiveDesign": "响应式设计：该网站支持响应式，能够自适应不同的屏幕尺寸和设备。"
+      },
+      "powerfulFeatures": "借助 Next.js 14 强大的功能和丰富的生态系统，我们可以轻松构建现代化的多语言网站。"
+    },
+    "auth": {
+      "home": "首页",
+      "signInCardDescription": "选择您喜欢的登录方式",
+      "signUpCardDescription": "选择您喜欢的注册方式",
+      "divisionText": "或者继续使用",
+      "email": "电子邮件",
+      "password": "密码",
+      "signUp": "注册",
+      "signIn": "登录",
+      "signOut": "退出",
+      "alreadyHaveAnAccount": "已经有账号?",
+      "signUpText": "没有账号?"
+    }
   }
 }

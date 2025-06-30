@@ -9,8 +9,11 @@
       "nav": {
         "home": "ホーム",
         "about": "会社概要",
-        "products": "製品・サービス",
-        "contact": "お問い合わせ"
+        "server": "サーバー",
+        "protected": "保護された",
+        "api": "API",
+        "admin": "管理者",
+        "me": "私"
       },
       "cta": "始める"
     },
@@ -33,7 +36,7 @@
         "docs": "ドキュメント",
         "api": "API リファレンス"
       },
-      "copyright": "© 2024 日本企業 All rights reserved.",
+      "copyright": "© 2025 Reeswell",
       "description": "シンプルで美しいソリューションを提供します"
     }
   },
@@ -61,49 +64,31 @@
           }
         ]
       }
-    }
-  },
-
-  "Menu": {
-    "home": "Startseite",
-    "about": "Über",
-    "server": "Server",
-    "protected": "Geschützt",
-    "api": "API",
-    "admin": "Admin",
-    "me": "Ich"
-  },
-  "Locales": {
-    "en": "Englisch",
-    "de": "Deutsch",
-    "zh": "Chinesisch"
-  },
-  "About": {
-    "welcome": "Willkommen auf unserer mehrsprachigen Website",
-    "description": "Dies ist ein Beispiel für eine mehrsprachige Website, die mit Next.js 13 erstellt wurde. Die Website bietet folgende Funktionen:",
-    "features": {
-      "multiLanguageSupport": "Mehrsprachige Unterstützung: Die Website bietet mehrere Sprachversionen, und Benutzer können zwischen den Sprachen wechseln.",
-      "thirdPartyLogin": "Drittanbieter-Anmeldung: Benutzer können sich schnell mit Google und GitHub anmelden.",
-      "customLogin": "Benutzerdefinierte Anmeldung: Die Website bietet auch benutzerdefinierte Anmeldeverfahren, mit denen Benutzer sich mit ihren eigenen Konten anmelden können.",
-      "themeSwitching": "Themenumschaltung: Die Website unterstützt sowohl dunkle als auch helle Themen, und Benutzer können je nach Vorlieben zwischen ihnen wechseln.",
-      "responsiveDesign": "Responsives Design: Die Website ist so konzipiert, dass sie sich an verschiedene Bildschirmgrößen und Geräte anpasst."
     },
-    "powerfulFeatures": "Mit den leistungsstarken Funktionen und der umfangreichen Entwicklerumgebung von Next.js 13 können wir problemlos moderne mehrsprachige Websites erstellen."
-  },
-  "Auth": {
-    "home": "Startseite",
-    "signInCardDescription": "Wählen Sie Ihre bevorzugte Anmeldemethode",
-    "signUpCardDescription": "Wählen Sie Ihre bevorzugte Registrieremethode",
-    "divisionText": "Oder fahren Sie fort mit",
-    "email": "E-Mail",
-    "password": "Passwort",
-    "signUp": "Registrieren",
-    "signIn": "Anmelden",
-    "signOut": "Ausloggen",
-    "alreadyHaveAnAccount": "Bereits ein Konto?",
-    "signUpText": "Haben Sie kein Konto?"
-  },
-  "Footer": {
-    "authorDescription": "Erstellt von"
+    "about": {
+      "welcome": "私たちの多言語ウェブサイトへようこそ",
+      "description": "これは、Next.js 14を使用して構築された多言語ウェブサイトの例です。このウェブサイトには、次のような機能があります。",
+      "features": {
+        "multiLanguageSupport": "多言語サポート: このウェブサイトは複数の言語バージョンを提供しており、ユーザーは言語間を切り替えることができます。",
+        "thirdPartyLogin": "サードパーティログイン: ユーザーはGoogleやGitHubを使用して迅速にログインできます。",
+        "customLogin": "カスタムログイン: このウェブサイトは、ユーザーが独自のアカウントでログインできるカスタムログイン方法も提供しています。",
+        "themeSwitching": "テーマ切り替え: このウェブサイトはダークテーマとライトテーマの両方をサポートしており、ユーザーは好みに応じて切り替えることができます。",
+        "responsiveDesign": "レスポンシブデザイン: このウェブサイトはレスポンシブであり、さまざまな画面サイズやデバイスに適応します。"
+      },
+      "powerfulFeatures": "Next.js 14の最新機能を活用して、パフォーマンスとユーザーエクスペリエンスを向上させています。"
+    },
+    "auth": {
+      "home": "ホーム",
+      "signInCardDescription": "お好みのサインイン方法を選択してください",
+      "signUpCardDescription": "お好みのサインアップ方法を選択してください",
+      "divisionText": "または続行する",
+      "email": "メールアドレス",
+      "password": "パスワード",
+      "signUp": "サインアップ",
+      "signIn": "サインイン",
+      "signOut": "サインアウト",
+      "alreadyHaveAnAccount": "すでにアカウントをお持ちですか？",
+      "signUpText": "アカウントをお持ちでないですか？"
+    }
   }
 }
