@@ -24,7 +24,7 @@ import type * as z from 'zod'
 
 type Inputs = z.infer<typeof authValidator>
 export function SignInForm() {
-  const t = useTranslations('Auth')
+  const t = useTranslations('Pages.auth')
   const [isLoading, setIsLoading] = useState(false)
   const pathname = usePathname()
   const router = useRouter()
